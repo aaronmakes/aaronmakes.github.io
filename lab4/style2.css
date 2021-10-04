@@ -1,0 +1,21 @@
+body {background-color: White;}
+
+.mainBox  {
+	width: 90%;
+	height: 33%;
+	background-color: white;
+	position: absolute; /*Can also be `fixed`*/
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	margin: auto;
+	/*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+	border: dashed 5px purple;
+	 display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }

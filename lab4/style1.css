@@ -1,0 +1,57 @@
+body {background-color: Blue;}
+
+.mainBox  {
+	width: 75%;
+	height: 75%;
+	background-color: blue;
+	position: absolute; /*Can also be `fixed`*/
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+	border: solid 5px black;
+  }
+  
+.title	{
+	width: 90%;
+	height: 10%;
+	background-color: blue;
+	position: absolute; /*Can also be `fixed`*/
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 75%;
+	margin: auto;
+	/*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
+	border: dashed 5px green;
+}
+  
+.pictureBox{
+	padding: 20px;
+	width: 25%;
+	height: 50%;
+	bottom: 0;
+	position: absolute; /*Can also be `fixed`*/
+	border: dashed 5px gold;
+}
+
+img{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+  
+h2 { 
+}
+
+p    {color: red;}
