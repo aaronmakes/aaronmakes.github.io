@@ -1,0 +1,37 @@
+header{
+	background-color: red;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background: red;
+	height: 15%;
+   
+
+}
+.content{
+	background-color: green;
+	text-align: left;
+	color: white;
+	height: 70%
+	
+}
+footer{
+	height: 15%;
+	background-color: blue;
+	text-align: left;
+	color: white;
+
+}
+.box-wrapper{
+display: flex;
+  flex-flow: column;
+  height: 100%;
+  
+}
+html,
+body {
+  height: 95%;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}

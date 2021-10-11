@@ -1,0 +1,56 @@
+.content{
+	background-color: blue;
+	height: 70%;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.left{
+	background-color: pink;
+	width: 25%;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.right{
+	background-color: orange;
+	width: 75%;
+	font-size: 24px;
+	font-weight: bold;
+}
+footer{
+	background-color: yellow;
+	height: 10%;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header{
+	background-color: red;
+	text-align: center;
+	height: 10%;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.nav{
+	display: flex;
+	flex-flow: row;
+	height: 100%;
+	width: 100%;
+	height: 10%;
+}
+.box-wrapper{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	width: 75%;
+	margin: 0 auto;
+	
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: green;
+}
