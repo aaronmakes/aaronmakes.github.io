@@ -1,0 +1,65 @@
+ /*Grouped css*/
+.colorChange, li{
+    color: aqua; 
+}
+
+ /*nested css*/
+#nested{
+    background-color: burlywood;
+    font-family: fantasy;
+}
+
+#nested ul{
+    font-size: 50px;
+}
+
+#nested li{
+    font-size: 40px;
+}
+
+.fontChange{
+    font-family: fantasy;
+}
+
+.fontResize{
+    font-size: 40px;
+}
+
+.upperCase{
+    text-transform: uppercase;
+}
+
+.yellow{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+}
+
+.red{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.blue{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.boxModel{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
