@@ -1,0 +1,57 @@
+.header{
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    height: 100%;
+  }
+
+.footer{
+    background-color:lightgray;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.content{
+    background-color: white ;
+    font-size: 15px;
+    font-family: Arial;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.sideBar{
+    background-color: lightgray;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+}
